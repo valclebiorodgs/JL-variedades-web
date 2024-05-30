@@ -64,3 +64,23 @@ def get_produtos_by_id(id_produto:int):
         resultado.append(dataset)
     # print(resultado)
     return JSONResponse(content=resultado) 
+
+
+@app.get("/consulta-produtos-nome/{nome_produto}")
+def get_produtos_by_nome(nome_produto: str):
+    cursor = conexao.cursor()
+    comando = "SELECT * FROM Produtos WHERE Nome_Produto = ?;"
+    
+    cursor.execute(comando, (nome_produto,))
+    rows = cursor.fetchall()
+    resultado = []
+    for row in rows:
+        dataset = {}
+        for i, col in enumerate(cursor.description):
+            if col[0] == "Valor":
+                dataset[col[0]] = str(row[i])
+            else:
+                dataset[col[0]] = row[i]
+        resultado.append(dataset)
+    
+    return JSONResponse(content=resultado)
