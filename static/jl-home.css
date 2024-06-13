@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* */
+
+body{
+    background-attachment: fixed;
+    background: url(img/WhatsApp\ Image\ 2024-05-31\ at\ 03.49.10.jpeg), no-repeat;
+}
+
+.flash_alerta{
+    background-color: red;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#form_fundo{
+    opacity: .9;
+    background-color: #001a8b;
+    margin: 10% 25% 25% 25%; 
+    text-align: center;
+    border-radius: 20px; 
+    font-weight: bold; 
+    box-shadow: 7px 10px 10px black;
+}
+
+#form_frente{
+    background-color: antiquewhite;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px; 
+    font-weight: bold; 
+    box-shadow: 7px 10px 10px black;
+    padding: 30px;
+}
+
+label{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #001a8b;
+    color: antiquewhite;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ff5e00;
+    font-size: 40px;
+    color: black;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "teste",
+        "senha": "qwerty"
+    },
+    {
+        "nome": "Afonso",
+        "senha": "123"
+    },
+    {
+        "nome": "Cleber",
+        "senha": "abc"
+    },
+    {
+        "nome": "Valclebio",
+        "senha": "zxcvb"
+    },
+    {
+        "nome": "Italo",
+        "senha": "123456789"
+    },
+    {
+        "nome": "Carlos",
+        "senha": "carlos"
+    },
+    {
+        "nome": "Ramon",
+        "senha": "nomar"
+    }
+]

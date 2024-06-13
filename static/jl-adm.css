@@ -1,0 +1,39 @@
+@import url(jl-home.css);
+
+body{
+    background: url(img/WhatsApp\ Image\ 2024-05-31\ at\ 03.49.10.jpeg), no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    backdrop-filter: blur(30px);
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#form_fundo{
+    margin: 2% 50% 5% 5%;
+    position: absolute;
+}
+
+#form_fundo.listaUsuarios{
+    margin: 2% 5% 5% 50%;
+    position: relative;
+}
+
+#form_frente.listaUsuarios{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 300px;
+
+}
+
+.ul_listaUsuarios{
+    background-color: #ff5e00;
+    border: 2px solid;
+    border-radius: 20px;
+}
